@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
     <Authors>Alejandro Piña</Authors>
     <Company>Ultranaco Labs</Company>
-    <RepositoryUrl>http://github.com/ultranaco/crypto-csharp</RepositoryUrl>
+    <RepositoryUrl>https://github.com/ultranaco/crypto-csharp</RepositoryUrl>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Description>Library to handle crypto-messages. Repository: http://github.com/ultranaco/crypto-csharp </Description>
+    <Description>Library to handle crypto-messages. Repository: https://github.com/ultranaco/crypto-csharp </Description>
     <PackageTags>cryptography;sha256;aws4</PackageTags>
   </PropertyGroup>
 
