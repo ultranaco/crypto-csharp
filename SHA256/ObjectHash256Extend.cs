@@ -5,7 +5,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Falcon.Crypto.SHA256
+namespace Ultranaco.Crypto.SHA256
 {
   public static class ObjectHash256Extend
   {
