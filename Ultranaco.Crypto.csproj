@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <Version>0.0.5</Version>
+    <Version>0.0.6</Version>
     <Authors>Alejandro Piña</Authors>
     <Company>Ultranaco Labs</Company>
     <RepositoryUrl>https://github.com/ultranaco/crypto-csharp</RepositoryUrl>
@@ -12,7 +12,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="RestSharp" Version="106.6.9" />
   </ItemGroup>
 </Project>

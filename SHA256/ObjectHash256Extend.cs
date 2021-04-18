@@ -1,9 +1,9 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.Json;
 
 namespace Ultranaco.Crypto.SHA256
 {
@@ -13,7 +13,7 @@ namespace Ultranaco.Crypto.SHA256
     {
       var objStr = string.Empty;
       if (!(obj is string))
-        objStr = JsonConvert.SerializeObject(obj);
+        objStr = JsonSerializer.Serialize(obj);
       else
         objStr = (string)obj;
 
